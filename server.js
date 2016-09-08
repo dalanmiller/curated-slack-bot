@@ -17,3 +17,6 @@ slapp.command('/curated', 'add (.*)', (msg, text, url) => {
 
   msg.respond(`Thanks for adding! ${url}!`)
 })
+
+const app = slapp.attachToExpress(express())
+app.listen(process.env.PORT)
