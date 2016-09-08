@@ -22,4 +22,4 @@ config:
 slackscopes:
   - bot
   - commands
-  # - incoming-webhook
+  - incoming-webhook
