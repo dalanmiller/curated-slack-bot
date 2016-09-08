@@ -18,5 +18,16 @@ slapp.command('/curated', 'add (.*)', (msg, text, url) => {
   msg.respond(`Thanks for adding! ${url}!`)
 })
 
-const app = slapp.attachToExpress(express())
-app.listen(process.env.PORT)
+slapp.message('^(hi|hello|hey).*', ['direct_mention', 'direct_message'], (msg, text, greeting) => {
+  msg
+    .say(`${greeting}, how are you?`)
+    .route('handleHowAreYou')  // where to route the next msg in the conversation
+})
+
+// register a route handler
+slapp.route('handleHowAreYou', (msg) => {
+  // respond with a random entry from array
+  msg.say(['Me too', 'Noted', 'That is interesting'])
+})
+
+const app = slapp.attachToExpress(express()).listen(process.env.PORT)
