@@ -1,0 +1,25 @@
+name: CuratedCoBot
+author: Daniel Alan Miller
+# author_avatar: images/author_avatar.png
+email: dalan.miller@gmail.com
+description: A simple bot to help you curate awesome newsletters
+# avatar: images/avatar.jpg
+# background: images/background.png
+config:
+  # - name: OPTION
+    # friendly_name: Some Unnecessary Option
+    # info: This is an unnecessary option
+    # default: the default value
+    # global: false
+  # - name: SECRET
+    # friendly_name: Shhhh
+    # info: This is an secret option
+    # type: secret
+    # default: not secret though
+# screenshots:
+  # - screenshot: images/screenshot1.png
+  # - screenshot: images/screenshot2.jpg
+slackscopes:
+  # - bot
+  - commands
+  # - incoming-webhook
