@@ -1,3 +1,4 @@
+'use strict'
 const Slapp = require('slapp')
 const ConvoStore = require('slapp-convo-beepboop')
 const BeepBoopContext = require('slapp-context-beepboop')
