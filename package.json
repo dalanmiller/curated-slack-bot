@@ -20,6 +20,7 @@
   "homepage": "https://github.com/dalanmiller/curated-slack-bot#readme",
   "dependencies": {
     "sendgrid": "^4.0.2",
-    "slapp": "^1.1.2"
+    "slapp": "^1.1.2",
+    "slapp-context-beepboop": "^1.0.1"
   }
 }
