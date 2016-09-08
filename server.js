@@ -1,8 +1,8 @@
 'use strict'
 const Slapp = require('slapp')
 const BeepBoopContext = require('slapp-context-beepboop')
-
-const sg = require('sendgrid')(process.env.SENDGRID_API_KEY);
+const express = require('express')
+const sg = require('sendgrid')(process.env.SENDGRID_API_KEY)
 
 
 const slapp = Slapp({
