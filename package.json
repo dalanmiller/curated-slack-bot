@@ -1,0 +1,24 @@
+{
+  "name": "curated-slack-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dalanmiller/curated-slack-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dalanmiller/curated-slack-bot/issues"
+  },
+  "homepage": "https://github.com/dalanmiller/curated-slack-bot#readme",
+  "dependencies": {
+    "sendgrid": "^4.0.2",
+    "slapp": "^1.1.2"
+  }
+}
