@@ -21,6 +21,7 @@
     "express": "^4.14.0",
     "sendgrid": "^4.0.2",
     "slapp": "^1.1.2",
-    "slapp-context-beepboop": "^1.0.1"
+    "slapp-context-beepboop": "^1.0.1",
+    "slapp-convo-beepboop": "^1.0.0"
   }
 }

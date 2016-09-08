@@ -1,5 +1,6 @@
 'use strict'
 const Slapp = require('slapp')
+const BeepBoopConvoStore = require('slapp-convo-beepboop')
 const BeepBoopContext = require('slapp-context-beepboop')
 const express = require('express')
 const sg = require('sendgrid')(process.env.SENDGRID_API_KEY)
@@ -7,7 +8,7 @@ const sg = require('sendgrid')(process.env.SENDGRID_API_KEY)
 
 const slapp = Slapp({
   verify_token: process.env.SLACK_VERIFY_TOKEN,
-  // convo_store: ConvoStore(),
+  convo_store: BeepBoopConvoStore(),
   context: BeepBoopContext(),
   log: true,
   colors: true
