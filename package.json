@@ -22,6 +22,7 @@
     "sendgrid": "^4.0.2",
     "slapp": "^1.1.2",
     "slapp-context-beepboop": "^1.0.1",
-    "slapp-convo-beepboop": "^1.0.0"
+    "slapp-convo-beepboop": "^1.0.0",
+    "valid-url": "^1.0.9"
   }
 }

@@ -11,11 +11,14 @@ config:
     # info: This is an unnecessary option
     # default: the default value
     # global: false
-  - name: SECRET
-    friendly_name: Shhhh
-    info: This is your SendGrid API KEY
+  - name: SendGrid API Key
+    friendly_name: SENDGRID_API_KEY
+    info: This is your SendGrid API KEY for sending emails to CuratedCo
     type: secret
-    # default: not secret though
+  - name: CuratedCo Email
+    friendly_name: CURATEDCO_EMAIL
+    info: This is your email at CuratedCo where the links will be sent to and automatically added to your "Collected Links"
+    type: secret
 # screenshots:
   # - screenshot: images/screenshot1.png
   # - screenshot: images/screenshot2.jpg
